@@ -1,0 +1,40 @@
+body{
+	background-size: 100%;
+	background-image: url(https://pbs.twimg.com/media/EyDZjhGXAAogGtr.jpg)
+}
+
+.main{
+	width: 200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 50px;
+	position: relative;
+	margin-top: 20px;
+	transition: all ease 0.5s;
+}
+
+#obj3, #obj4{
+	width: 200px;
+	height: 200px;
+	transition: all ease 0.5s;
+	left: 35%;
+	position: relative;
+
+}
+
+#obj1, #obj2{
+	width: 200px;
+	height: 200px;
+	transition: all ease 0.5s;
+	left: 10%;
+	top: 20%;
+	position: relative;
+}
+
+#obj3{
+	margin-top: -21%;
+}
+
+#obj4{
+	margin-top: -44%;
+}
